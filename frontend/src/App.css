@@ -1,0 +1,7 @@
+#cards{
+  column-gap: 7rem;
+  row-gap: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}

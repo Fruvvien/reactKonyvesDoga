@@ -1,0 +1,42 @@
+[
+    {
+        "author": "Asd",
+        "title": "asd",
+        "year": 2000,
+        "genre": "asd",
+        "pages": 100,
+        "available": true
+    },
+    {
+        "author": "John Doe",
+        "title": "Example Book",
+        "year": 2015,
+        "genre": "Fiction",
+        "pages": 320,
+        "available": false
+    },
+    {
+        "author": "Jane Smith",
+        "title": "Another Example",
+        "year": 2021,
+        "genre": "Non-Fiction",
+        "pages": 250,
+        "available": true
+    },
+    {
+        "author": "Emily Johnson",
+        "title": "Sample Title",
+        "year": 1998,
+        "genre": "Mystery",
+        "pages": 400,
+        "available": true
+    },
+    {
+        "author": "Michael Brown",
+        "title": "Test Book",
+        "year": 2005,
+        "genre": "Science Fiction",
+        "pages": 150,
+        "available": false
+    }
+]
