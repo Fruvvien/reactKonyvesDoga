@@ -151,26 +151,26 @@ function App() {
           <form onSubmit={!editMode ? postDatas : (e) => patchDatas(e, formState.id)}>
             <div className='form-group'>
               <label htmlFor="title">Title</label>
-              < input className='form-control' name='title' value={formState.title || "" } type='text'  onChange={(e) => setValues(e, "title")}/>
+              < input className='form-control' name='title' required value={formState.title || "" } type='text'  onChange={(e) => setValues(e, "title")}/>
             </div>
             <div className='form-group'>
               <label htmlFor="author" >Author</label>
-              <input className='form-control' name='author' value={formState.author || ""} type='text' onChange={(e) => setValues(e, "author")} />
+              <input className='form-control' name='author' required value={formState.author || ""} type='text' onChange={(e) => setValues(e, "author")} />
             </div>
             <div className='form-group'>
               <label htmlFor="year">Year</label>
-              <input className='form-control' name='year' value={formState.year || ""} type='text' onChange={(e) => setValues(e,"year")} />
+              <input className='form-control' name='year' required value={formState.year || ""} type='text' onChange={(e) => setValues(e,"year")} />
             </div>
             <div className='form-group'>
               <label htmlFor="genre">Genre</label>
-              <input className='form-control' name='genre' value={formState.genre || ""} type='text' onChange={(e) => setValues(e, "genre")} />
+              <input className='form-control' name='genre' required value={formState.genre || ""} type='text' onChange={(e) => setValues(e, "genre")} />
             </div>
             <div className='form-group'>
               <label htmlFor="pages">Pages</label>
-              <input className='form-control' name='pages' value={formState.pages || ""} type='numer' onChange={(e) => setValues(e, "pages")} />
+              <input className='form-control' name='pages' required value={formState.pages || ""} type='numer' onChange={(e) => setValues(e, "pages")} />
             </div>
             <div className='form-group'>
-              <input type="checkbox" className="form-check-input"  name='available'  onChange={(e) => setValues(e,"available")}/>
+              <input type="checkbox" className="form-check-input" required  name='available'  onChange={(e) => setValues(e,"available")}/>
               <label className='form-check-label'>Available</label>
             </div>
             <button className='btn btn-success' type='submit'>{!editMode ? "Add" : "Change"}</button>
