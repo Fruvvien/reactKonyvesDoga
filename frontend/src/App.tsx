@@ -170,7 +170,7 @@ function App() {
               <input className='form-control' name='pages' required value={formState.pages || ""} type='numer' onChange={(e) => setValues(e, "pages")} />
             </div>
             <div className='form-group'>
-              <input type="checkbox" className="form-check-input" required  name='available'  onChange={(e) => setValues(e,"available")}/>
+              <input type="checkbox" className="form-check-input"   name='available'  onChange={(e) => setValues(e,"available")}/>
               <label className='form-check-label'>Available</label>
             </div>
             <button className='btn btn-success' type='submit'>{!editMode ? "Add" : "Change"}</button>
