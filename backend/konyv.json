@@ -1,1 +1,47 @@
-[{"id":2,"author":"John Doe","title":"Example Book","year":2015,"genre":"Fiction","pages":320,"available":"false"},{"id":3,"author":"Jane Smith","title":"Another Example","year":2021,"genre":"Non-Fiction","pages":250,"available":"true"},{"id":4,"author":"Emily Johnson","title":"Sample Title","year":1998,"genre":"Mystery","pages":400,"available":"true"},{"id":6,"author":"Alice Walker","title":"New Horizons","year":2010,"genre":"Adventure","pages":280,"available":"true"},{"id":7,"author":"Robert Martin","title":"Coding for Beginners","year":2018,"genre":"Education","pages":200,"available":"true"},{"id":8,"author":"Laura White","title":"Mystery of the Old House","year":1995,"genre":"Mystery","pages":350,"available":"false"},{"id":9,"author":"David Green","title":"Future Tech","year":2022,"genre":"Science Fiction","pages":"30000000000000","available":"false"},{"id":10,"author":"Sarah Brown","title":"Cooking 101","year":2008,"genre":"Cooking","pages":180,"available":"false"},{"id":9,"title":"asdasd1","author":"asdasdasd","year":"2222","genre":"Mystery","pages":"300","available":"true"}]
+[
+    {
+        "id": 1,
+        "author": "Asd",
+        "title": "asd",
+        "year": 2000,
+        "genre": "asd",
+        "pages": 100,
+        "available": true
+    },
+    {
+        "id": 2,
+        "author": "John Doe",
+        "title": "Example Book",
+        "year": 2015,
+        "genre": "Fiction",
+        "pages": 320,
+        "available": false
+    },
+    {
+        "id": 3,
+        "author": "Jane Smith",
+        "title": "Another Example",
+        "year": 2021,
+        "genre": "Non-Fiction",
+        "pages": 250,
+        "available": true
+    },
+    {
+        "id": 4,
+        "author": "Emily Johnson",
+        "title": "Sample Title",
+        "year": 1998,
+        "genre": "Mystery",
+        "pages": 400,
+        "available": true
+    },
+    {
+        "id": 5,
+        "author": "Michael Brown",
+        "title": "Test Book",
+        "year": 2005,
+        "genre": "Science Fiction",
+        "pages": 150,
+        "available": false
+    }
+]
